@@ -49,7 +49,7 @@ function addListeners() {
         divRows.appendChild(newRow);
     })
 
-    loadStitchesFromFile('defaultStrings.xliff');
+    loadStitchesFromFile('strings.xliff');
 
     btnConfirmInst.addEventListener('click', showInstructions);
 
